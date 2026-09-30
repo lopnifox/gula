@@ -15,7 +15,12 @@
 
 <form [formGroup]="gulaForm" (ngSubmit)="startCalc()">
     <div>
-        <label for="height" class="form-lable">Magasság</label>
+        <label for="height" class="form-lable">Magasság
+            @if() {
+                <span>laskdfk</span>
+            }
+
+        </label>
         <input type="text" id="height" formControlName="height"
         class="form-control">
     </div>
