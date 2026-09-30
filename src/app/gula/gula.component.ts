@@ -1,3 +1,13 @@
+/*
+* File: gula.component.ts
+* Author: Nagy Áron
+* Copyright: 2026, Nagy Áron
+* Group: Szoft II-N
+* Date: 2026-09-30
+* Github: https://github.com/lopnifox/
+* Licenc: MIT
+*/
+
 import { Component, inject } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 
